@@ -21,7 +21,7 @@ public class User implements Serializable {
     @Column(name = "CB_CUSTNO", length = 32)
     private String custNo;
 
-    @Column(name = "CB_MOBILE_NO", length = 11)
+    @Column(name = "CB_MOBILE_NO", length = 20)
     private String mobileNo;
 
     public String getCustNo() {
